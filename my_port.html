@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 1rem;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        #showcase {
+            background: #333;
+            color: #fff;
+            padding: 5rem 0;
+            text-align: center;
+        }
+        #showcase h1 {
+            margin: 0;
+            font-size: 3rem;
+        }
+        .portfolio-item {
+            float: left;
+            width: 30%;
+            margin: 1.66%;
+            background: #fff;
+            padding: 1rem;
+            box-sizing: border-box;
+        }
+        .portfolio-item img {
+            max-width: 100%;
+        }
+        .portfolio-item h3 {
+            margin-top: 0;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#showcase">Home</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section id="showcase">
+    <div class="container">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Check out my projects and feel free to get in touch!</p>
+    </div>
+</section>
+
+<section id="portfolio" class="container">
+    <h2>My Work</h2>
+    <div class="portfolio-item">
+        <img src="./doctor.jfif" alt="Project 1">
+        <h3>Project 1</h3>
+        <a href="https://github.com/dhanushreesivakumar/medical.git">project1 git</a>
+        <p>The project build with the help of reactjs based on the medical field </p>
+    </div>
+    <div class="portfolio-item">
+        <img src="./download (1).jfif" alt="Project 2">
+        <h3>Project 2</h3>
+        <a href="https://github.com/dhanushreesivakumar/BookYourStay.git">project2 git</a>
+        <p>The project build with the help of the reactjs on booking the hotel rooms .The project is on development  </p>
+    </div>
+</section>
+
+<section id="contact" class="container">
+    <h2>Contact Me</h2>
+    <p>You can reach me at: <a href="mailto:dhanusiva2010@gmail.com">dhanusiva2010@gmail.com</a></p>
+</section>
+
+<footer>
+    <p>My Portfolio  2024</p>
+</footer>
+
+</body>
+</html>
